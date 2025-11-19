@@ -21,26 +21,26 @@ export default function ContactUs() {
   }
 
   return (
-    <div className="min-h-screen bg-white text-slate-800">
-      {/* Top nav (simple) */}
-      <header className="border-b">
+    <div className="min-h-screen bg-teal-50 text-slate-800">
+      
+      {/* <header className="border-b bg-teal-50"> 
         <div className="max-w-[1200px] mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="text-teal-600 font-bold text-xl">SkillHire</div>
+          <div className="text-teal-600 font-bold text-xl">SkillHire</div> 
           <nav className="space-x-6 text-sm text-slate-600 hidden md:flex">
             <a href="#" className="hover:text-slate-900">Home</a>
             <a href="#" className="hover:text-slate-900">For Students</a>
             <a href="#" className="hover:text-slate-900">For Companies</a>
             <a href="#contact" className="hover:text-slate-900">Contact</a>
-          </nav>
+          </nav> 
           <div className="space-x-3">
             <button className="text-sm">Login</button>
             <button className="text-sm bg-sky-500 text-white px-3 py-1 rounded-full">Sign Up</button>
           </div>
         </div>
-      </header>
-
+      </header> */}
+    
       {/* Hero */}
-      <section className="py-12 bg-gradient-to-r from-slate-50 to-white">
+      <section className="py-12 bg-gradient-to-r from-slate-50 to-teal-50">
         <div className="max-w-[1100px] mx-auto px-6 text-center">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-white shadow mb-4">
             {/* chat icon placeholder */}
@@ -49,7 +49,7 @@ export default function ContactUs() {
             </svg>
           </div>
 
-          <h1 className="text-4xl font-extrabold">Get in Touch</h1>
+          <h1 className="text-4xl bg-teal-50 font-extrabold">Get in Touch</h1>
           <p className="mt-3 text-slate-500 max-w-2xl mx-auto">Have questions about SkillHire? We'd love to hear from you. Our support team is here to help and will get back to you as soon as possible.</p>
         </div>
       </section>

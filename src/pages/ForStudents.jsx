@@ -210,7 +210,7 @@ export default function StudentDashboard() {
   const openApplications = () => setShowApplicationsModal(true);
 
   return (
-    <div className="min-h-screen bg-white text-slate-800">
+    <div className="min-h-screen bg-teal-100 text-slate-800">
       {/* hidden file input for portfolio */}
       <input
         type="file"
@@ -227,13 +227,13 @@ export default function StudentDashboard() {
         </div>
       )}
 
-      <div className="max-w-[1200px] mx-auto px-6 py-8 grid grid-cols-12 gap-6">
+      <div className=" bg-teal-50 mx-auto px-6 py-8 grid grid-cols-12 gap-6">
         {/* Sidebar */}
         <aside className="col-span-2 border-r pr-4 sticky top-6 h-fit">
-          <div className="text-teal-600 font-bold text-xl mb-6">SkillHire</div>
+          <div className="text-teal-700 font-bold text-xl mb-6">SkillHire</div>
 
           <nav className="text-sm space-y-2">
-            <div className="py-2 px-3 rounded-md bg-slate-50 font-medium">Dashboard</div>
+            <div className="py-2 px-3 rounded-md bg-white font-medium">Dashboard</div>
             <div
               onClick={() => navigate("/jobs")}
               className="py-2 px-3 rounded-md hover:bg-slate-50 cursor-pointer"
@@ -248,7 +248,7 @@ export default function StudentDashboard() {
               <span className="ml-2 text-xs bg-blue-50 px-2 rounded-full">{user.applications}</span>
             </div>
 
-            <div className="mt-6 font-semibold">Profile</div>
+            <div className="py-2 px-3 rounded-md bg-white font-medium">Profile</div>
             <div
               onClick={handleOpenProfile}
               className="py-2 px-3 rounded-md hover:bg-slate-50 cursor-pointer"
@@ -274,7 +274,7 @@ export default function StudentDashboard() {
               Assessments
             </div>
 
-            <div className="mt-6 font-semibold">Resources</div>
+            <div className="py-2 px-3 rounded-md bg-white font-medium">Resources</div>
             <div className="py-2 px-3 rounded-md hover:bg-slate-50 cursor-pointer">How it Works</div>
             <div className="py-2 px-3 rounded-md hover:bg-slate-50 cursor-pointer">Help Center</div>
             <div className="py-2 px-3 rounded-md hover:bg-slate-50 cursor-pointer">Settings</div>
@@ -335,7 +335,7 @@ export default function StudentDashboard() {
               </button>
               <button
                 onClick={openApplications}
-                className="text-sm text-slate-500"
+                className="text-sm font-semibold border-b-2 border-teal-400 pb-2"
               >
                 My Applications
               </button>

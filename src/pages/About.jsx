@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-white text-slate-800 py-16">
+    <div className="min-h-screen bg-teal-50 text-slate-800 py-16">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <header className="mb-12 text-center">

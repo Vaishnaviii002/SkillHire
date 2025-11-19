@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-/**
- * Robust ForCompanies page:
- * - Tries to load each logo (remote or local)
- * - On image error shows initials fallback and logs the URL
- * - Optionally preferLocal=true to use local /public/logos/* files
- */
 
 const PREFER_LOCAL = false; // set true if you put logos in public/logos/
 
@@ -72,7 +66,7 @@ export default function ForCompanies() {
   }
 
   return (
-    <div className="min-h-screen bg-white text-slate-800 py-12">
+    <div className="min-h-screen bg-teal-50 text-slate-800 py-12">
       <div className="max-w-6xl mx-auto px-6">
         <header className="mb-8 grid md:grid-cols-2 gap-8 items-center">
           <div>
@@ -85,7 +79,7 @@ export default function ForCompanies() {
 
             <div className="mt-6 flex gap-3">
               <button onClick={openModal} className="px-5 py-3 rounded-lg bg-gradient-to-r from-sky-500 to-teal-400 text-white font-semibold shadow">Request a demo</button>
-              <Link to="/signup" className="px-5 py-3 rounded-lg border">Partner with SkillHire</Link>
+              <Link to="/signup" className="px-5 py-3 bg-white rounded-lg border">Partner with SkillHire</Link>
             </div>
           </div>
 
