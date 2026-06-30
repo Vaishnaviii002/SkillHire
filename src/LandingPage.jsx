@@ -6,7 +6,7 @@ export default function LandingPage() {
   return (
 
     
-    <div className="min-h-screen bg-teal-100 text-slate-800 antialiased">
+    <div className="min-h-screen bg-teal-900 text-slate-800 antialiased">
       {/* NAV */}
       <header className="sticky top-0 z-40 backdrop-blur bg-white/60 border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
