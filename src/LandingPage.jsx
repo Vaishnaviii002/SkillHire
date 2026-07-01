@@ -160,7 +160,7 @@ export default function LandingPage() {
             <p className="mt-2 text-slate-600">Students and companies love the experience.</p>
 
             <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-              <TestimonialCard name="Priya Sharma" role="Frontend Student" quote="Got hired within 10 days!" />
+              <TestimonialCard name="vaishnavi" role="Frontend Student" quote="Got hired within 10 days!" />
               <TestimonialCard name="Rohan Mehta" role="Data Analyst Student" quote="Progress tracker helped me improve fast." />
               <TestimonialCard name="Asha Recruitment" role="Fintech Hiring Lead" quote="Saved hours in shortlisting candidates." />
               <TestimonialCard name="ByteWorks" role="Hiring Manager" quote="Super smooth hiring experience." />
