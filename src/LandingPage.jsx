@@ -6,7 +6,7 @@ export default function LandingPage() {
   return (
 
     
-    <div className="min-h-screen bg-teal-500 text-slate-800 antialiased">
+    <div className="min-h-screen bg-teal-800 text-slate-800 antialiased">
       {/* NAV */}
       <header className="sticky top-0 z-40 backdrop-blur bg-white/60 border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -123,7 +123,7 @@ export default function LandingPage() {
 
         {/* STUDENT FEATURES */}
         
-        <section id="students" className=" bg-teal-500">
+        <section id="students" className=" bg-teal-800">
           <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
             <h3 className="text-2xl font-semibold">Built for Students</h3>
             <p className="mt-2 text-slate-600">Stand out with verified skills and a strong portfolio.</p>
@@ -140,7 +140,7 @@ export default function LandingPage() {
         </section>
 
         {/* COMPANY FEATURES */}
-        <section id="companies" className=" bg-teal-500">
+        <section id="companies" className=" bg-teal-800">
           <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
             <h3 className="text-2xl font-semibold">Designed for Hiring Teams</h3>
             <p className="mt-2 text-slate-600">Find job-ready, skilled talent with verified assessments.</p>
@@ -154,7 +154,7 @@ export default function LandingPage() {
         </section>
 
         {/* TESTIMONIALS */}
-        <section id="testimonials" className=" bg-teal-500">
+        <section id="testimonials" className=" bg-teal-800">
           <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
             <h3 className="text-2xl font-semibold">What people say</h3>
             <p className="mt-2 text-slate-600">Students and companies love the experience.</p>
@@ -176,10 +176,10 @@ export default function LandingPage() {
               <p className="mt-1 text-sm opacity-90 ">Join as a student or post your first job.</p>
             </div>
             <div className="flex gap-3">
-              <a className="px-4 py-2 rounded-md  bg-teal-500 text-sky-600 font-medium" href="#students">
+              <a className="px-4 py-2 rounded-md  bg-teal-800 text-sky-600 font-medium" href="#students">
                 Join as Student
               </a>
-              <a className="px-4 py-2 rounded-md bg-teal-500 text-sky-600 border border-white/40" href="#companies  ">
+              <a className="px-4 py-2 rounded-md bg-teal-800 text-sky-600 border border-white/40" href="#companies  ">
                 Post Job as Company
               </a>
             </div>
@@ -187,7 +187,7 @@ export default function LandingPage() {
         </section>
 
         {/* FOOTER */}
-        <footer id="contact" className="bg-teal-500 border-t border-slate-100">
+        <footer id="contact" className="bg-teal-800 border-t border-slate-100">
           <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
               <div>
